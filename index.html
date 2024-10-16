@@ -25,6 +25,40 @@
     <section id="synthesis">
         <h2>Textually-inspired speech synthesis</h2>
         <p>Get in touch! Here's where you'd put your contact info.</p>
+
+        <!-- Synthesis Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Text</th>
+                    <th>Speaker Prompt</th>
+                    <th>Ground Truth</th>
+                    <th>LJSpeech Model</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>In addition, the proposed legislation will insure.</td>
+                    <td><button onclick="playAudio('speaker-prompt1')">▶️</button></td>
+                    <td><button onclick="playAudio('ground-truth1')">▶️</button></td>
+                    <td><button onclick="playAudio('lj-speech1')">▶️</button></td>
+                </tr>
+                <tr>
+                    <td>During the period the Commission was giving thought to this situation,</td>
+                    <td><button onclick="playAudio('speaker-prompt2')">▶️</button></td>
+                    <td><button onclick="playAudio('ground-truth2')">▶️</button></td>
+                    <td><button onclick="playAudio('lj-speech2')">▶️</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script>
+            function playAudio(id) {
+                // Placeholder function to handle audio play button
+                alert("Playing audio for " + id);
+                // Actual implementation would require audio files and logic to play them
+            }
+        </script>
     </section>
 
     <footer>
