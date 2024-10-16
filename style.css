@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+/* Add spacing and styling to the table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove extra spacing between cells */
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd; /* Border around table cells */
+    padding: 10px;           /* Padding inside cells */
+    text-align: center;      /* Center align the content */
+}
+th {
+    background-color: #f2f2f2; /* Light gray background for header cells */
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
